@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen">
+    <div class="h-96 w-96 mx-auto border-2 border-black border-solid bg-cover bg-center gap-4 flex flex-col justify-center items-center " style="background: url(bg_img.jpg);">
+     <p class="text-2xl text-center text-white font-semibold ">BLACKJACK GAME</p>
+     <p id="message-el" class="text-xl text-white text-center  font-sans">Do you want to play a round?</p>
+     <p id="cards-el" class="text-xl text-center  text-white"> Cards:</p>
+     <p id="sum-el" class="text-xl text-center  text-white"> Sum:</p>
+     <button onclick="startGame()" class="h-8 w-32 bg-white text-black font-medium rounded-lg  gap-4" >START GAME</button>
+     <button onclick="newCard()" class="h-8 w-32 bg-white text-black font-medium rounded-lg  gap-4" >NEW CARD</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
